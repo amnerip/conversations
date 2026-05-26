@@ -21,7 +21,7 @@ claude
 Then just start talking. Examples:
 
 - "Something's been on my mind about work."
-- "I want to think through how PT is going."
+- "I want to think through how work is going."
 - "I don't know what I want to talk about, just want to check in."
 
 When you're ready to wrap up, say something like:
@@ -73,13 +73,7 @@ If any of these start happening, the prompts in `prompts/` need adjusting. Edit 
 
 ## Privacy
 
-This repo is local. If you want git history on the prompts and threads but not on entries, add this to `.gitignore`:
-
-```
-entries/
-```
-
-Or keep the whole thing untracked and just rely on filesystem backups. Up to you.
+By default `entries/` is in the `.gitignore`.
 
 ## Iterating on the prompts
 
